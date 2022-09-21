@@ -24,14 +24,14 @@
   @apply flex w-full flex-col justify-center space-y-6 text-xl text-white md:flex-row md:space-y-0 md:space-x-4;
 }
 
-body {
+#hero {
   background-image: url("../images/bg-header-desktop.png");
   background-repeat: no-repeat;
   background-size: cover;
 }
 
 @media (max-width: 576px) {
-  body {
+  #hero {
     background-image: url("../images/bg-header-mobile.png");
   }
 }
